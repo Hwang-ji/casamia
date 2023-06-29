@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>casamia</title>
+</head>
+<body>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <img src="assets/img/casamia_logo_W.png" alt="logo white" class="nav__logo-white">
+        <img src="assets/img/casamia_logo_B.png" alt="logo black" class="nav__logo-black">
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">Home</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#popular" class="nav__link">Popular</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#products" class="nav__link">Products</a>
+          </li>
+        </ul>
+
+        <!-- close btn -->
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-line"></i>
+        </div>
+      </div>
+
+      <div class="nav__buttons">
+        <!-- theme change btn -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+        <!-- toggle btn -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+
+    </nav>
+  </header>
+
+  <main class="main">
+    <!-- home -->
+    <section class="home section" id="home">
+      <div class="home__bg"></div>
+
+      <div class="home__container container grid">
+        <div class="home__content grid">
+          <div class="home__data">
+            <h3 class="home__subtitle">
+              아름다운 삶의 장면의 완성
+            </h3>
+
+            <h1 class="home__title">
+              LIFESTYLE SCENE MAKER,<br>
+              CASAMIA
+            </h1>
+
+            <div class="home__buttons">
+              <a href="#" class="button">
+                더 알아보기 <i class="ri-arrow-right-s-line"></i>
+              </a>
+
+              <a href="#" class="button__link">
+                <i class="ri-play-circle-line"></i> Watch Video
+              </a>
+            </div>
+          </div>
+
+          <div class="home__info">
+            <div>
+              <h3 class="home__info-title">
+                9K<span>+</span>
+              </h3>
+              <span class="home__info-subtitle">
+                Premium <br> Product
+              </span>
+            </div>
+
+            <div>
+              <h3 class="home__info-title">
+                2K<span>+</span>
+              </h3>
+              <span class="home__info-subtitle">
+                Happy <br> Customer
+              </span>
+            </div>
+            
+            <div>
+              <h3 class="home__info-title">
+                28<span>+</span>
+              </h3>
+              <span class="home__info-subtitle">
+                Awards <br> Winning
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="home__image">
+          <svg class="home__blob" viewBox="0 0 388 356" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <mask id="maskBlob" mask-type="alpha">
+              <path d="M4.07011 131.339L187.19 2.07644C189.929 0.14254 193.584 0.122582 196.345 2.02646L383.856 131.344C386.021 132.837 387.314 135.299 387.314 137.93V347.143C387.314 351.561 383.732 355.143 379.314 355.143H8.68359C4.26532 355.143 0.683594 351.561 0.683594 347.143V137.874C0.683594 135.275 1.94651 132.838 4.07011 131.339Z"/>
+            </mask>
+            <g mask="url(#maskBlob)">
+              <path d="M4.07011 131.339L187.19 2.07644C189.929 0.14254 193.584 0.122582 196.345 2.02646L383.856 131.344C386.021 132.837 387.314 135.299 387.314 137.93V347.143C387.314 351.561 383.732 355.143 379.314 355.143H8.68359C4.26532 355.143 0.683594 351.561 0.683594 347.143V137.874C0.683594 135.275 1.94651 132.838 4.07011 131.339Z"/>
+              <image class="home__blob-img" x="110" y="10" xlink:href="assets/img/main-lamp.png"/>
+              <image class="home__blob-img-2" x="44" y="190" xlink:href="assets/img/main-sofa.png"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+    
+    <!-- popular -->
+    <section class="popular section" id="popular">
+      <div class="popular__container container">
+        <div class="popular__data">
+          <h2 class="section__title">Best Product</h2>
+
+          <p class="popular__description">
+            까사미아의 베스트 제품을 만나보세요
+          </p>
+        </div>
+
+        <div class="popular__content grid swiper">
+          <div class="swiper-wrapper">
+            <article class="popular__card swiper-slide">
+              <div class="popular__blob">
+                <img src="assets/img/clock_1.png" alt="popular image" class="popular__img">
+              </div>
+              <h3 class="popular__name">올리오 벽시계</h3>
+              <span class="popular__subtitle">비모토리빙</span>
+              <h3 class="popular__price">
+                <span>￦</span>94,000
+              </h3>
+
+              <button class="popular__button">
+                <i class="ri-shopping-bag-line"></i>
+              </button>
+            </article>
+
+            <article class="popular__card swiper-slide">
+              <div class="popular__blob">
+                <img src="assets/img/lamp.png" alt="popular image" class="popular__img">
+              </div>
+              <h3 class="popular__name">네시노</h3>
+              <span class="popular__subtitle">아르테미데</span>
+              <h3 class="popular__price">
+                <span>￦</span>290,000
+              </h3>
+
+              <button class="popular__button">
+                <i class="ri-shopping-bag-line"></i>
+              </button>
+            </article>
+
+            <article class="popular__card swiper-slide">
+              <div class="popular__blob">
+                <img src="assets/img/closet.png" alt="popular image" class="popular__img">
+              </div>
+              <h3 class="popular__name">미네뜨 와이드서랍장</h3>
+              <span class="popular__subtitle">엠하우스</span>
+              <h3 class="popular__price">
+                <span>￦</span>330,000
+              </h3>
+
+              <button class="popular__button">
+                <i class="ri-shopping-bag-line"></i>
+              </button>
+            </article>
+
+            <article class="popular__card swiper-slide">
+              <div class="popular__blob">
+                <img src="assets/img/sofa.png" alt="popular image" class="popular__img">
+              </div>
+              <h3 class="popular__name">코비 1인소파</h3>
+              <span class="popular__subtitle">까사미아</span>
+              <h3 class="popular__price">
+                <span>￦</span>400,000
+              </h3>
+
+              <button class="popular__button">
+                <i class="ri-shopping-bag-line"></i>
+              </button>
+            </article>
+
+            <article class="popular__card swiper-slide">
+              <div class="popular__blob">
+                <img src="assets/img/clock_2.png" alt="popular image" class="popular__img">
+              </div>
+              <h3 class="popular__name">누메로 벽시계</h3>
+              <span class="popular__subtitle">피아바</span>
+              <h3 class="popular__price">
+                <span>￦</span>49,000
+              </h3>
+
+              <button class="popular__button">
+                <i class="ri-shopping-bag-line"></i>
+              </button>
+            </article>
+          </div>
+
+          <!-- navigation buttons -->
+          <div class="swiper-button-prev">
+            <i class="ri-arrow-left-s-line"></i>
+          </div>
+          <div class="swiper-button-next">
+            <i class="ri-arrow-right-s-line"></i>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="about section" id="about">
+      <div class="about__container container grid">
+        <div class="about__image">
+          <div class="about__blob">
+            <img src="assets/img/table-lamp.png" alt="about image" class="about__img">
+            <h1 class="about__blob-title">LIVING</h1>
+          </div>
+
+          <div class="about__shadow"></div>
+        </div>
+
+        <div class="about__content">
+          <div class="about__data">
+            <h2 class="section__title">우리가 꿈꾸던 집</h2>
+
+            <p class="about__description">
+              모두가 바라는 좋은 집, 까사미아로의 초대
+            </p>
+          </div>
+
+          <div class="about__faq">
+            <div class="about__faq-item">
+              <div class="about__faq-header">
+                <div class="about__faq-icon">
+                  <i class="ri-add-line"></i>
+                </div>
+                <h3 class="about__faq-title">차별화된 홈 스타일링</h3>
+              </div>
+
+              <div class="about__faq-content">
+                <p class="about__faq-description">
+                  신세계까사의 아이덴티티를 담은
+                  디자인 가구를 3D 랜더링 기법을 접목하여
+                  차별화된 공간을 제안합니다.
+                </p>
+              </div>
+            </div>
+
+            <div class="about__faq-item">
+              <div class="about__faq-header">
+                <div class="about__faq-icon">
+                  <i class="ri-add-line"></i>
+                </div>
+                <h3 class="about__faq-title">탁월한 디자인과 스타일을 갖춘 가구</h3>
+              </div>
+              
+              <div class="about__faq-content">
+                <p class="about__faq-description">
+                  최고급 소재와 기술로 까사미아만의
+                  혁신적인 제품과 서비스를 만들어냅니다.
+                </p>
+              </div>
+            </div>
+
+            <div class="about__faq-item">
+              <div class="about__faq-header">
+                <div class="about__faq-icon">
+                  <i class="ri-add-line"></i>
+                </div>
+                <h3 class="about__faq-title">세심한 디테일과 품질</h3>
+              </div>
+              
+              <div class="about__faq-content">
+                <p class="about__faq-description">
+                  보이지 않는 곳까지 세심한 디테일로 
+                  고객 감동을 전달하며, 사용할수록 차별화된 
+                  가치가 보이는 제품으로 자부심이 느껴지는 공간을 제안합니다.
+                </p>
+              </div>
+            </div>
+
+            <div class="about__faq-item">
+              <div class="about__faq-header">
+                <div class="about__faq-icon">
+                  <i class="ri-add-line"></i>
+                </div>
+                <h3 class="about__faq-title">기본에 충실하고 원칙을 준수한 가구</h3>
+              </div>
+              
+              <div class="about__faq-content">
+                <p class="about__faq-description">
+                  기본에 충실하고 원칙을 준수하며,
+                  사람과 환경을 이롭게 하는 공간에 
+                  대해 끊임없이 연구합니다. 믿을 수 있는 품질과 
+                  진정성 있는 제품을 제공합니다.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- features -->
+    <section class="features section">
+      <div class="features__container container grid">
+        <div class="features__image">
+          <div class="features__blob">
+            <img src="assets/img/features-2.png" alt="features image" class="features__img">
+            <h1 class="features__blob-title">CASAMIA</h1>
+          </div>
+          <div class="features__shadow"></div>
+        </div>
+
+        <div class="features__content">
+          <div class="features__data">
+            <h2 class="section__title">리빙 & 라이프</h2>
+
+            <p class="features__description">
+              국내 시장을 선도하는 신세계의 리빙 & 라이프스타일 브랜드입니다.
+            </p>
+          </div>
+
+          <div class="features__info">
+            <div class="features__info-card">
+              <h3 class="features__info-title">
+                신세계 까사 <br> casamia
+              </h3>
+            </div>
+
+            <div class="features__info-card">
+              <h3 class="features__info-title">
+                라메종 <br> La maison
+              </h3>
+            </div>
+
+            <div class="features__info-card">
+              <h3 class="features__info-title">
+                디자이너스 <br> 컬렉션
+              </h3>
+            </div>
+
+            <div class="features__info-card">
+              <h3 class="features__info-title">
+                하우스 <br> 퍼니처마켓
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- products -->
+    <section class="products section" id="products">
+      <div class="products__container container grid">
+        <div class="products__data">
+          <h2 class="section__title">Our Product</h2>
+
+          <p class="products__description">
+            까사미아의 모든 제품을 만나보세요
+          </p>
+        </div>
+
+        <div class="products__content grid">
+          <article class="products__card">
+            <div class="products__blob">
+              <img src="assets/img/white-sofa.png" alt="products image" class="products__img">
+            </div>
+
+            <h3 class="products__name">마들렌 포근한 소파</h3>
+            <span class="products__subtitle">웨스트프롬</span>
+            <h3 class="products__price">
+              <span>￦</span>409,000
+            </h3>
+
+            <button class="products__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="products__card">
+            <div class="products__blob">
+              <img src="assets/img/cupboard.png" alt="products image" class="products__img">
+            </div>
+
+            <h3 class="products__name">셀린 원목 장식장</h3>
+            <span class="products__subtitle">장미맨숀</span>
+            <h3 class="products__price">
+              <span>￦</span>559,900
+            </h3>
+
+            <button class="products__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="products__card">
+            <div class="products__blob">
+              <img src="assets/img/mirror.png" alt="products image" class="products__img">
+            </div>
+
+            <h3 class="products__name">미러페어우드프레임</h3>
+            <span class="products__subtitle">셀레티</span>
+            <h3 class="products__price">
+              <span>￦</span>923,000
+            </h3>
+
+            <button class="products__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="products__card">
+            <div class="products__blob">
+              <img src="assets/img/air-cleaner.png" alt="products image" class="products__img">
+            </div>
+
+            <h3 class="products__name">공기청정기</h3>
+            <span class="products__subtitle">플러스마이너스제로</span>
+            <h3 class="products__price">
+              <span>￦</span>579,000
+            </h3>
+
+            <button class="products__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="products__card">
+            <div class="products__blob">
+              <img src="assets/img/bluetooth-table.png" alt="products image" class="products__img">
+            </div>
+
+            <h3 class="products__name">블루투스스피커 테이블</h3>
+            <span class="products__subtitle">까사미아</span>
+            <h3 class="products__price">
+              <span>￦</span>449,000
+            </h3>
+
+            <button class="products__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="products__card">
+            <div class="products__blob">
+              <img src="assets/img/table.png" alt="products image" class="products__img">
+            </div>
+
+            <h3 class="products__name">헤세 월넛 수납 책상</h3>
+            <span class="products__subtitle">레트로하우스</span>
+            <h3 class="products__price">
+              <span>￦</span>322,000
+            </h3>
+
+            <button class="products__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="products__card">
+            <div class="products__blob">
+              <img src="assets/img/chair.png" alt="products image" class="products__img">
+            </div>
+
+            <h3 class="products__name">스태리 기능성 의자</h3>
+            <span class="products__subtitle">체어마이스터</span>
+            <h3 class="products__price">
+              <span>￦</span>250,000
+            </h3>
+
+            <button class="products__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="products__card">
+            <div class="products__blob">
+              <img src="assets/img/yellow-sofa.png" alt="products image" class="products__img">
+            </div>
+
+            <h3 class="products__name">클로이 패브릭 소파</h3>
+            <span class="products__subtitle">장미맨숀</span>
+            <h3 class="products__price">
+              <span>￦</span>379,900
+            </h3>
+
+            <button class="products__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- join -->
+    <section class="join section">
+      <div class="join__container container grid">
+        <div class="join__bg grid">
+          <div class="join__image">
+            <div class="join__blob">
+              <img src="assets/img/table-lamp2.png" alt="join image" class="join__img">
+              <h1 class="join__blob-title">HOUSE</h1>
+            </div>
+
+            <div class="join__shadow"></div>
+          </div>
+
+          <div class="join__content grid">
+            <div class="join__data">
+              <h2 class="section__title">Magazines</h2>
+
+              <p class="join__description">
+                까사미아의 새로운 소식을 놓치지 마세요<br>
+                신청하신 이메일로 매거진을 받아보실 수 있습니다
+              </p>
+            </div>
+
+            <form action="" class="join__form">
+              <input type="email" placeholder="Enter your email" class="join__input">
+
+              <button class="button join__button">
+                Join Now
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container container grid">
+      <div class="footer__content grid">
+        <div>
+          <a href="#" class="footer__logo">
+            <img src="assets/img/casamia_logo_B.png" alt="logo black" class="footer__logo-black">
+            <img src="assets/img/casamia_logo_W.png" alt="logo white" class="footer__logo-white">
+          </a>
+
+          <div class="footer__description">
+            <p>
+              까사미아는 가족이 살아가는 생활 공간을 다루는<br>
+              라이프스타일 브랜드입니다. 이탈리아어로<br>
+              행복한 나의 집을 뜻하는 까사미아 casamia는<br>
+              1982년 압구정 소품 매장에서 시작해 40여 년간<br>
+              많은 이들의 따뜻한 일상을 함께 해왔습니다.
+          </p>
+          </div>
+        </div>
+
+        <div class="footer__data grid">
+          <div>
+            <h3 class="footer__title">About</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">About Us</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">Features</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">News & Blog</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Movement</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">What casamia</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">Support Us</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Company</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">Why casamia</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">Capital</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">Security</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Follow Us</h3>
+
+            <div class="footer__social">
+              <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                <i class="ri-facebook-circle-line"></i>
+              </a>
+              <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                <i class="ri-twitter-line"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="footer__group">
+        <div class="footer__terms">
+          <a href="#">Terms & Agreements</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+
+        <span class="footer__copy">
+          Copyright &#169; 2023 SHINSEGAE CASA Co., Ltd. All rights reserved
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- scroll up -->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+
+  <script src="assets/js/scrollreveal.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
