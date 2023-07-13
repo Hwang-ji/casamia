@@ -224,6 +224,7 @@ body.dark-theme{
   font-size: 1.25rem;
   color: var(--white-color);
   transition: color .4s;
+  cursor: pointer;
 }
 
 @media screen and (max-width:1023px) {
@@ -263,6 +264,7 @@ body.dark-theme{
   right: 1.5rem;
   font-size: 1.5rem;
   color: var(--title-color);
+  cursor: pointer;
 }
 
 /* show menu */
@@ -317,9 +319,9 @@ body.dark-theme{
   row-gap: 3.5rem;
 }
 
-.home__content {
+/* .home__content {
   row-gap: 3rem;
-}
+} */
 
 .home__data {
   text-align: center;
@@ -357,28 +359,6 @@ body.dark-theme{
 
 .home__buttons .button__link{
   color: var(--text-color);
-}
-
-.home__info{
-  display: flex;
-  justify-content: center;
-  column-gap: 2rem;
-  text-align: center;
-}
-
-.home__info-title{
-  color: var(--white-color);
-  font-size: var(--h1-font-size);
-  font-weight: var(--font-medium);
-  margin-bottom: .5rem;
-}
-
-.home__info-title span{
-  color: var(--first-color);
-}
-
-.home__info-subtitle{
-  font-size: var(--small-font-size);
 }
 
 .home__blob{
@@ -1110,7 +1090,7 @@ body.dark-theme{
 
 /* min-width:768px */
 @media screen and (min-width:768px) {
-  .section__title, .home__data, .home__info, .popular__data, .about__data, .features__data, .join__data{
+  .section__title, .home__data, .popular__data, .about__data, .features__data, .join__data{
     text-align: initial;
   }
   
@@ -1122,7 +1102,7 @@ body.dark-theme{
     height: 105%;
   }
   
-  .home__buttons, .home__info{
+  .home__buttons {
     justify-content: initial;
   }
   
@@ -1248,24 +1228,19 @@ body.dark-theme{
   .home__container{
     grid-template-columns: 530px 465px;
     justify-content: center;
-    padding-top: 3.5rem;
+    /* padding-top: 3.5rem; */
     column-gap: 7.5rem;
   }
 
   .home__bg{
     height: 96%;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 78%);
   }
 
   .home__blob{
     width: 530px;
     height: 600px;
     border: 10px solid transparent;
-  }
-
-  .home__content{
-    row-gap: 4.5rem;
-    padding-bottom: 5rem;
   }
 
   .home__subtitle{
@@ -1279,19 +1254,6 @@ body.dark-theme{
 
   .home__buttons{
     column-gap: 2.5rem;
-  }
-
-  .home__info{
-    column-gap: 4rem;
-    text-align: center;
-  }
-
-  .home__info-title{
-    font-size: 2.75rem;
-  }
-
-  .home__info-subtitle{
-    font-size: var(--normal-font-size);
   }
 
   .popular__description{
