@@ -14,4 +14,4 @@
 
 ## Screenshot
 
-<img width="700" src="https://github.com/Hwang-ji/casamia/assets/79661326/46c6c68e-a7cf-4719-975c-d76aca5fa689">
+<img width="700" src="https://github.com/Hwang-ji/casamia/assets/79661326/39990ec4-3500-488e-badf-a32fd49cbf4a">
