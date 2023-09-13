@@ -8,7 +8,7 @@
   --first-color-alt:hsl(49, 74%, 47%);
   --first-gradient:linear-gradient(90deg, hsl(49, 69%, 45%) 0%, hsl(49, 68%, 80%) 100%);
   --second-gradient:linear-gradient(90deg, hsl(51, 84%, 54%) 0%, hsl(49, 78%, 80%) 100%);
-  --third-gradient:linear-gradient(90deg, hsl(50, 95%, 44%) 0%, hsl(49, 77%, 68%) 100%);
+  --third-gradient:linear-gradient(90deg, hsl(50, 95%, 44%) 0%, hsl(49, 77%, 58%) 100%);
   --title-color: hsl(0, 0%, 12%);
   --text-color: hsl(0, 0%, 50%);
   --white-color: #fff;
@@ -1310,7 +1310,7 @@ body.dark-theme{
   }
 
   .popular__button, .products__button{
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     border-radius: .75rem;
     right: 1rem;
     bottom: 1.5rem;
